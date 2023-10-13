@@ -5,6 +5,7 @@ const {findString} = require('./frequentStr.js')
 const {stringReverse,numberReverse} = require('./stringReverse.js')
 const {chunkArray} = require('./chunkArray.js')
 const {palindrom} = require('./palindrom.js')
+const {vowelCount} = require('./vowelCount.js')
 
 
 
@@ -16,4 +17,6 @@ const {palindrom} = require('./palindrom.js')
 // console.log(numberReverse(-258))
 // console.log(chunkArray([1,2,3,4,5,6] , 2))
 // console.log(maxStringChar('Munira akter!-'))
-console.log(palindrom('race car'))
+// console.log(palindrom('apple'))
+console.log(vowelCount('HQ'))
+
